@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import java.util.Map;
 
-public record Moneda() {
+public record Moneda(String base_code, Map<String, Double> conversion_rates) {
 }
